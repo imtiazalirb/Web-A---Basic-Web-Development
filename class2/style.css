@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+.canvas {
+    width: 1080px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+
+.row1{
+    background-color: red;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
