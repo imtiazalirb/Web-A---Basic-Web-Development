@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p::before{
+    content: "Note: ";
+}
+
+p::after{
+    content: " The End";
+}
+
+img{
+    max-width: 100%;
+}
+.canvas {
+    width: 1080px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+
+.row1{
+    background-color: red;
+    overflow: hidden;
+    padding: 20px;    
+}
+
+.logo{
+    float: left;
+    padding: 20px;
+}
+
+.menu{
+    float: right;
+    background-color: #f2f2f2;
+}
+
+.clear{
+    clear: both;
+}
+.menu ul {}
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a{
+    padding: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-right: 1px solid green;
+} 
+
+.menu ul li:last-child a {
+    border: none;
+}
+
+.row2{
+    height: 300px;
+    overflow: hidden;
+}
+
+.row3{
+
+}
+
+.content{
+    overflow: hidden;
+}
+
+fix::before, fix::after{
+    content: "";
+    display: table;
+}
+
+fix::after{
+    clear: none;
+}
+
+.content_left{
+    float: left;
+    width: 700px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.top{
+    margin-bottom: 25px;
+}
+
+.bottom{
+    text-align: ;
+}
+
+.bottom a {
+    display: float;
+    width: 30%;    
+}
+.bottom a img{
+    max-width: 150px;
+}
+
+.content_right{
+    float: right;
+    width: 260px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.content_right h4 {
+    margin-bottom: 15px;
+}
+
+.row4{
+    text-align: center;
+}
+
+.fixed, .relative {
+    width:100px;
+    height:100px;
+}
+
+.fixed{
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.something{
+    width: 500px;
+    height:300px;
+    background-color: grey;
+    position: relative;
+}
+
+.absolute{
+    background-color: green;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    position: absolute;
+}
+
+.abs3{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+}
+
+.abs2{    
+    width: 100px;
+    height:100px;
+    background-color: red ;
+}
+
+.relative{
+    background-color: yellow;
+    position: relative;
+}
+
+.content_right ul {}
+
+.content_right ul li {
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.content_right ul li:nth-child(odd){
+    background-color: green;
+}
+
+.content_right ul li a {
+    color: white;
+    display: block;
+    padding: 3px;
+}
